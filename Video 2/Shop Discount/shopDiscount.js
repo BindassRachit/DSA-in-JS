@@ -9,8 +9,6 @@ if (shoping >= 0 && shoping <= 1000){
     dis = 20;
 } else if(shoping > 5000 ){
     dis = 30;
-}else{
-    console.log("okay")
 }
 
 console.log(Math.floor((dis*shoping)/100));
